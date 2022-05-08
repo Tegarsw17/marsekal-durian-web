@@ -1,0 +1,100 @@
+CRITICAL - 2022-05-06 08:15:32 --> Call to undefined method App\Models\DashboardModel::countPohon
+#0 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\Dashboard.php(17): CodeIgniter\Model->__call('countPohon', Array)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#6 {main}
+CRITICAL - 2022-05-06 08:15:36 --> Call to undefined method App\Models\DashboardModel::countPohon
+#0 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\Dashboard.php(17): CodeIgniter\Model->__call('countPohon', Array)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#6 {main}
+CRITICAL - 2022-05-06 08:16:01 --> Call to undefined method App\Models\DashboardModel::countPohon
+#0 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\Dashboard.php(17): CodeIgniter\Model->__call('countPohon', Array)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#6 {main}
+CRITICAL - 2022-05-06 08:16:03 --> Call to undefined method App\Models\DashboardModel::countPohon
+#0 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\Dashboard.php(17): CodeIgniter\Model->__call('countPohon', Array)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#6 {main}
+CRITICAL - 2022-05-06 08:16:13 --> Call to undefined method App\Models\DashboardModel::countPohon
+#0 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\Dashboard.php(17): CodeIgniter\Model->__call('countPohon', Array)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#6 {main}
+CRITICAL - 2022-05-06 08:16:28 --> Call to undefined method App\Models\DashboardModel::countPohon
+#0 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\Dashboard.php(17): CodeIgniter\Model->__call('countPohon', Array)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#6 {main}
+CRITICAL - 2022-05-06 08:19:27 --> Object of class App\Models\DashboardModel could not be converted to string
+#0 D:\Duren marsekal\Web\Duren Marsekal\app\Views\dashboard.php(172): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'D:\\Duren marsek...', 172, Array)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(210): include('D:\\Duren marsek...')
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\Dashboard.php(22): view('dashboard', Array)
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#10 {main}
+CRITICAL - 2022-05-06 08:19:45 --> Object of class App\Models\DashboardModel could not be converted to string
+#0 D:\Duren marsekal\Web\Duren Marsekal\app\Views\dashboard.php(172): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'D:\\Duren marsek...', 172, Array)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(210): include('D:\\Duren marsek...')
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\Common.php(1089): CodeIgniter\View\View->render('dashboard', Array, true)
+#4 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\Dashboard.php(22): view('dashboard', Array)
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#10 {main}
+CRITICAL - 2022-05-06 08:49:01 --> Call to undefined method App\Models\DashboardModel::countAllResult
+#0 D:\Duren marsekal\Web\Duren Marsekal\app\Models\DashboardModel.php(45): CodeIgniter\Model->__call('countAllResult', Array)
+#1 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\Dashboard.php(18): App\Models\DashboardModel->countPohon()
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#7 {main}
+CRITICAL - 2022-05-06 23:06:09 --> Object of class App\Controllers\Dashboard could not be converted to string
+#0 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\Dashboard.php(21): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'D:\\Duren marsek...', 21, Array)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#6 {main}
+CRITICAL - 2022-05-06 23:16:25 --> syntax error, unexpected '}', expecting ';'
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Duren marsek...')
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Dash...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Dash...')
+#3 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\Dashboard.php(14): spl_autoload_call('App\\Models\\Dash...')
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(809): App\Controllers\Dashboard->__construct()
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#9 {main}
