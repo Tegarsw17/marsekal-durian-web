@@ -22,6 +22,7 @@ class Dashboard extends BaseController
         $data = [
             // 'jumlah_pohon' => $this->dashmodel->countAllPohon()->getResultArray(),
             'title' => 'Dashboard | Duren Marsekal',
+            'nav' => 'dashboard',
             'list_pohon' => $this->dashmodel->getDurianUpdate()->getResultArray(),
             'jumlah_pohon' => $this->dashmodel->countAllPohon(),
             'tanaman_sakit' => $this->dashmodel->getTanamanSakit(),
