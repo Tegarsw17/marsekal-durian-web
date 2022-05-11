@@ -33,3 +33,51 @@ CRITICAL - 2022-05-10 01:41:34 --> min_lenght is not a valid rule.
 #7 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
 #8 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
 #9 {main}
+CRITICAL - 2022-05-10 21:46:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::where()
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->detail('2')
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#5 {main}
+CRITICAL - 2022-05-10 21:47:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::first()
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->detail('2')
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#5 {main}
+CRITICAL - 2022-05-10 22:44:00 --> Undefined offset: 0
+#0 D:\Duren marsekal\Web\Duren Marsekal\app\Views\user\detail.php(9): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'D:\\Duren marsek...', 9, Array)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(210): include('D:\\Duren marsek...')
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\Common.php(1089): CodeIgniter\View\View->render('user/detail', Array, true)
+#4 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\User.php(36): view('user/detail', Array)
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->detail('50')
+#6 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#10 {main}
+CRITICAL - 2022-05-10 23:29:59 --> Undefined variable: csrf_field
+#0 D:\Duren marsekal\Web\Duren Marsekal\app\Views\user\detail.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Duren marsek...', 26, Array)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(210): include('D:\\Duren marsek...')
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\Common.php(1089): CodeIgniter\View\View->render('user/detail', Array, true)
+#4 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\User.php(36): view('user/detail', Array)
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->detail('1')
+#6 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#10 {main}
+CRITICAL - 2022-05-10 23:30:49 --> preg_match(): Compilation failed: missing closing parenthesis at offset 14
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match(): C...', 'D:\\Duren marsek...', 384, Array)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\Router\Router.php(384): preg_match('#^user/([0-9]+$...', 'user/Rohmad dol...', NULL)
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\Router\Router.php(154): CodeIgniter\Router\Router->checkRoutes('user/Rohmad dol...')
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('user/Rohmad dol...')
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#8 {main}

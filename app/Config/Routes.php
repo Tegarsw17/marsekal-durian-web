@@ -32,6 +32,9 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Dashboard::index');
+$routes->get('/user', 'User::index');
+$routes->delete('/user/(:num)', 'User::delete/$1');
+
 
 /*
  * --------------------------------------------------------------------
