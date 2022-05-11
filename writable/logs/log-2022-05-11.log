@@ -1,0 +1,98 @@
+CRITICAL - 2022-05-11 01:09:09 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(210): include()
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\Common.php(1089): CodeIgniter\View\View->render('user/edit', Array, true)
+#3 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\User.php(125): view('user/edit', Array)
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->edit('5')
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#6 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#9 {main}
+CRITICAL - 2022-05-11 01:16:53 --> Undefined index: id
+#0 D:\Duren marsekal\Web\Duren Marsekal\app\Views\user\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Duren marsek...', 11, Array)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(210): include('D:\\Duren marsek...')
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\Common.php(1089): CodeIgniter\View\View->render('user/edit', Array, true)
+#4 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\User.php(127): view('user/edit', Array)
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->edit('1')
+#6 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#10 {main}
+CRITICAL - 2022-05-11 01:17:28 --> Undefined index: id
+#0 D:\Duren marsekal\Web\Duren Marsekal\app\Views\user\edit.php(11): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Duren marsek...', 11, Array)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(210): include('D:\\Duren marsek...')
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\Common.php(1089): CodeIgniter\View\View->render('user/edit', Array, true)
+#4 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\User.php(127): view('user/edit', Array)
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->edit('1')
+#6 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#10 {main}
+ERROR - 2022-05-11 01:22:50 --> Column 'id_user' in field list is ambiguous
+CRITICAL - 2022-05-11 01:22:50 --> Column 'id_user' in field list is ambiguous
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Duren marsekal\Web\Duren Marsekal\app\Models\UserModel.php(55): CodeIgniter\Model->__call('get', Array)
+#6 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\User.php(122): App\Models\UserModel->getUserWithPassword('1')
+#7 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->edit('1')
+#8 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#12 {main}
+ERROR - 2022-05-11 01:23:51 --> Column 'id_user' in field list is ambiguous
+CRITICAL - 2022-05-11 01:23:51 --> Column 'id_user' in field list is ambiguous
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Duren marsekal\Web\Duren Marsekal\app\Models\UserModel.php(55): CodeIgniter\Model->__call('get', Array)
+#6 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\User.php(122): App\Models\UserModel->getUserWithPassword('1')
+#7 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->edit('1')
+#8 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#12 {main}
+CRITICAL - 2022-05-11 01:33:00 --> Array to string conversion
+#0 D:\Duren marsekal\Web\Duren Marsekal\app\Views\user\edit.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Duren marsek...', 40, Array)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(210): include('D:\\Duren marsek...')
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\Common.php(1089): CodeIgniter\View\View->render('user/edit', Array, true)
+#4 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\User.php(127): view('user/edit', Array)
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->edit('16')
+#6 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#10 {main}
+CRITICAL - 2022-05-11 02:55:03 --> Too few arguments to function App\Controllers\User::edit(), 0 passed in D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->edit()
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#5 {main}
+CRITICAL - 2022-05-11 02:57:13 --> Too few arguments to function App\Controllers\User::edit(), 0 passed in D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->edit()
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#5 {main}
+CRITICAL - 2022-05-11 03:06:16 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->update('13')
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#5 {main}

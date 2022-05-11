@@ -10,12 +10,7 @@
     </div>
 
     <?php if (session()->getFlashdata('pesan')) : ?>
-        <div class="alert alert-success alert-dismissible fade show" role="alert">
-            <?= session()->getFlashdata('pesan'); ?>
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
+        <?= session()->getFlashdata('pesan'); ?>
     <?php endif; ?>
 
     <!-- Durian Table -->
@@ -56,7 +51,7 @@
                                 <td><?= $list['nama']; ?></td>
                                 <td><?= $list['username']; ?></td>
                                 <td><?= $list['nama_user']; ?></td>
-                                <td><a href="" class="btn btn btn-primary">Edit</a></td>
+                                <td><a href="/user/detail/<?= $list['id']; ?>" class="btn btn btn-primary">Edit</a></td>
                             </tr>
                         <?php endforeach; ?>
                     </tbody>
