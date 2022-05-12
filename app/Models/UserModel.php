@@ -47,11 +47,16 @@ class UserModel extends Model
 
     public function getUser()
     {
-        return $this->table('users')->select('id, nama, username, nama_user')->join('role_user', 'users.id_user = role_user.id_user')->get();
+        return $this->table('users')->select('id, nama, username, nama_user')->join('role_user', 'users.id_user = role_user.id_user');
     }
 
     public function getUserWithPassword($id)
     {
         return $this->table('users')->where(['id' => $id])->join('role_user', 'users.id_user = role_user.id_user')->get();
+    }
+
+    public function search($keyword)
+    {
+        return $this->table('users')->select('id, nama, username, nama_user')->join('role_user', 'users.id_user = role_user.id_user')->like('nama', $keyword);
     }
 }

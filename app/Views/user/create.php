@@ -42,6 +42,7 @@
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
+                <a href="/user" class="btn btn-danger">Back</a>
             </form>
         </div>
     </div>

@@ -9,7 +9,7 @@
         <h1 class="h3 mb-0 text-gray-800">Ubah User</h1>
     </div>
     <div class="row">
-        <div class="col-">
+        <div class="col-6">
 
             <form action="/user/update/<?= $user[0]['id']; ?>" method="post">
                 <?= csrf_field(); ?>
@@ -41,6 +41,7 @@
                     </div>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
+                <a href="/user/detail/<?= $user[0]['id']; ?>" class="btn btn-danger">Back</a>
             </form>
         </div>
     </div>
