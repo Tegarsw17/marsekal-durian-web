@@ -44,11 +44,11 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <?php $no = 1;
+                        <?php $no = 1 + ($numpage * ($currentpage - 1));
                         foreach ($list_user as $list) : ?>
                             <tr>
                                 <td><?= $no++; ?></td>
-                                <td><?= $list['nama']; ?></td>
+                                <td><?= ucfirst($list['nama']); ?></td>
                                 <td><?= $list['username']; ?></td>
                                 <td><?= $list['nama_user']; ?></td>
                                 <td><a href="/user/detail/<?= $list['id']; ?>" class="btn btn btn-primary">Edit</a></td>
@@ -56,6 +56,7 @@
                         <?php endforeach; ?>
                     </tbody>
                 </table>
+                <?= $pager->links('users', 'user_pagination'); ?>
             </div>
         </div>
     </div>

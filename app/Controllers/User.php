@@ -15,11 +15,26 @@ class User extends BaseController
 
     public function index()
     {
+        $numPage = 5;
+        $currentPage = $this->request->getVar('page_users') ? $this->request->getVar('page_users') : 1;
+
+        // d($this->request->getVar('keyword'));
+
+        $keyword = $this->request->getVar('keyword');
+        if ($keyword) {
+            $user = $this->usermodel->search($keyword);
+        } else {
+            $user = $this->usermodel->getUser();
+        }
 
         $data = [
             'title' => 'User | Duren Marsekal',
             'nav' => 'user',
-            'list_user' => $this->usermodel->getUser()->getResultArray(),
+            'numpage' => $numPage,
+            'list_user' => $user->paginate($numPage, 'users'),
+            // 'list_user' => $this->usermodel->join('role_user', 'users.id_user = role_user.id_user')->paginate(5),
+            'pager' => $this->usermodel->pager,
+            'currentpage' => $currentPage,
         ];
 
         // dd($data);

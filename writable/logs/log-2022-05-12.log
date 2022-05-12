@@ -1,0 +1,220 @@
+ERROR - 2022-05-12 01:10:42 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-05-12 01:10:42 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Duren marsekal\Web\Duren Marsekal\app\Models\DashboardModel.php(66): CodeIgniter\Model->__call('get', Array)
+#4 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\Dashboard.php(26): App\Models\DashboardModel->getDurianUpdate()
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#10 {main}
+CRITICAL - 2022-05-12 01:10:42 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\Duren marsekal\Web\Duren Marsekal\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\Duren marsek...', 96, Array)
+#1 D:\Duren marsekal\Web\Duren Marsekal\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Dashboard), true)
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\Debug\Exceptions.php(234): include('D:\\Duren marsek...')
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-05-12 01:10:46 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-05-12 01:10:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#3 D:\Duren marsekal\Web\Duren Marsekal\app\Models\DashboardModel.php(66): CodeIgniter\Model->__call('get', Array)
+#4 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\Dashboard.php(26): App\Models\DashboardModel->getDurianUpdate()
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\Dashboard->index()
+#6 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#10 {main}
+CRITICAL - 2022-05-12 01:10:46 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in D:\Duren marsekal\Web\Duren Marsekal\app\Views\errors\html\error_exception.php:96
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'D:\\Duren marsek...', 96, Array)
+#1 D:\Duren marsekal\Web\Duren Marsekal\app\Views\errors\html\error_exception.php(96): print_r(Object(App\Controllers\Dashboard), true)
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\Debug\Exceptions.php(234): include('D:\\Duren marsek...')
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-12 01:29:34 --> Undefined index: nama_user
+#0 D:\Duren marsekal\Web\Duren Marsekal\app\Views\user\user.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Duren marsek...', 53, Array)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(210): include('D:\\Duren marsek...')
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\Common.php(1089): CodeIgniter\View\View->render('user/user', Array, true)
+#4 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\User.php(28): view('user/user', Array)
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#10 {main}
+CRITICAL - 2022-05-12 01:30:09 --> Call to a member function paginate() on array
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#5 {main}
+CRITICAL - 2022-05-12 01:30:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#5 {main}
+CRITICAL - 2022-05-12 01:30:42 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#5 {main}
+CRITICAL - 2022-05-12 01:32:53 --> Undefined index: nama_user
+#0 D:\Duren marsekal\Web\Duren Marsekal\app\Views\user\user.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Duren marsek...', 53, Array)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(210): include('D:\\Duren marsek...')
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\Common.php(1089): CodeIgniter\View\View->render('user/user', Array, true)
+#4 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\User.php(28): view('user/user', Array)
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->index()
+#6 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#7 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#10 {main}
+CRITICAL - 2022-05-12 01:38:54 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::paginate()
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->index()
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#5 {main}
+CRITICAL - 2022-05-12 01:55:46 --> user_pagination is not a valid Pager template.
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\Pager\Pager.php(120): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('user_pagination')
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('users', 'user_pagination')
+#2 D:\Duren marsekal\Web\Duren Marsekal\app\Views\user\user.php(59): CodeIgniter\Pager\Pager->links('users', 'user_pagination')
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(210): include('D:\\Duren marsek...')
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\Common.php(1089): CodeIgniter\View\View->render('user/user', Array, true)
+#6 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\User.php(28): view('user/user', Array)
+#7 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->index()
+#8 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#12 {main}
+CRITICAL - 2022-05-12 01:56:25 --> user_pagination is not a valid Pager template.
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\Pager\Pager.php(120): CodeIgniter\Pager\Exceptions\PagerException::forInvalidTemplate('user_pagination')
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\Pager\Pager.php(83): CodeIgniter\Pager\Pager->displayLinks('users', 'user_pagination')
+#2 D:\Duren marsekal\Web\Duren Marsekal\app\Views\user\user.php(59): CodeIgniter\Pager\Pager->links('users', 'user_pagination')
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(210): include('D:\\Duren marsek...')
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\Common.php(1089): CodeIgniter\View\View->render('user/user', Array, true)
+#6 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\User.php(28): view('user/user', Array)
+#7 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->index()
+#8 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#12 {main}
+CRITICAL - 2022-05-12 02:24:36 --> Call to a member function like() on null
+#0 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\User.php(25): App\Models\UserModel->search('madam')
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->index()
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#6 {main}
+ERROR - 2022-05-12 02:25:24 --> Not unique table/alias: 'role_user'
+CRITICAL - 2022-05-12 02:25:24 --> Not unique table/alias: 'role_user'
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#6 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\User.php(34): CodeIgniter\BaseModel->paginate(4, 'users')
+#7 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->index()
+#8 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#12 {main}
+ERROR - 2022-05-12 02:26:18 --> Not unique table/alias: 'role_user'
+CRITICAL - 2022-05-12 02:26:18 --> Not unique table/alias: 'role_user'
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#6 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\User.php(34): CodeIgniter\BaseModel->paginate(4, 'users')
+#7 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->index()
+#8 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#12 {main}
+ERROR - 2022-05-12 02:38:17 --> Not unique table/alias: 'role_user'
+CRITICAL - 2022-05-12 02:38:18 --> Not unique table/alias: 'role_user'
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#6 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\User.php(34): CodeIgniter\BaseModel->paginate(4, 'users')
+#7 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->index()
+#8 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#12 {main}
+ERROR - 2022-05-12 02:44:50 --> Not unique table/alias: 'role_user'
+CRITICAL - 2022-05-12 02:44:50 --> Not unique table/alias: 'role_user'
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\Model.php(509): CodeIgniter\Database\BaseBuilder->countAllResults(false)
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\BaseModel.php(1084): CodeIgniter\Model->countAllResults(false)
+#6 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\User.php(34): CodeIgniter\BaseModel->paginate(4, 'users')
+#7 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->index()
+#8 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#9 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#12 {main}
+ERROR - 2022-05-12 02:59:53 --> Column 'id_user' in field list is ambiguous
+CRITICAL - 2022-05-12 02:59:53 --> Column 'id_user' in field list is ambiguous
+#0 D:\Duren marsekal\Web\Duren Marsekal\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `id`, `n...', 0)
+#1 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `id`, `n...')
+#2 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `id`, `n...')
+#3 D:\Duren marsekal\Web\Duren Marsekal\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `id`, `n...', Array, false)
+#4 D:\Duren marsekal\Web\Duren Marsekal\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Duren marsekal\Web\Duren Marsekal\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(4, 0)
+#6 D:\Duren marsekal\Web\Duren Marsekal\system\BaseModel.php(1088): CodeIgniter\BaseModel->findAll(4, 0)
+#7 D:\Duren marsekal\Web\Duren Marsekal\app\Controllers\User.php(34): CodeIgniter\BaseModel->paginate(4, 'users')
+#8 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(832): App\Controllers\User->index()
+#9 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User))
+#10 D:\Duren marsekal\Web\Duren Marsekal\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Duren marsekal\Web\Duren Marsekal\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\Duren marsekal\Web\Duren Marsekal\system\Commands\Server\rewrite.php(43): require_once('D:\\Duren marsek...')
+#13 {main}
